@@ -1,0 +1,50 @@
+.App {
+  text-align: center
+}
+.srch-cnt{
+  margin: 20px 0;
+}
+
+.inpt-srch{
+  width: 100%;
+}
+
+.prop-img{
+  border-radius: 50%;
+}
+
+.list-data{
+  display: flex;
+  margin: 10px 0;
+}
+
+.contact-app{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.list-detail{
+  margin: 10px 30px;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.text-head{
+  font-size: 18px;
+  font-weight: bold;
+  color: #50515D;
+}
+
+.text-content{
+  font-size: 14px;
+  font-weight: 400;
+  color: #72727d;
+}
+
+@media only screen and (max-width: 600px){
+  .contact-app{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
